@@ -3,3 +3,9 @@
     justify-content: space-between;
     list-style-type: none;
 }
+
+.navbar-two ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
