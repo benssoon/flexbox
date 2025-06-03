@@ -11,6 +11,10 @@
 
 /* Opdracht 1b */
 
+.navbar-two * {
+    gap: 20px;
+}
+
 .navbar-two ul {
     display: flex;
     justify-content: flex-end;
@@ -27,13 +31,17 @@
     display: flex;
 }
 
+.navbar-three * {
+    gap: 20px;
+}
+
       /*----- Logo flexbox -----*/
 .navbar-three .logo {
     flex-grow: 2;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    gap: 20px;
+
 }
 
             /*----- Logo -----*/
@@ -70,6 +78,10 @@
     justify-content: space-between;
 }
 
+.navbar-four * {
+    gap: 20px;
+}
+
       /*----- Logo flexbox -----*/
 /* The image takes up more space than previous iterations because
  the login buttons take up more vertical space, so the image grows to fill it.
@@ -79,7 +91,6 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    gap: 20px;
 }
 
             /*----- Logo -----*/
@@ -98,7 +109,6 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    gap: 20px;
 }
 
       /*----- Login flexbox -----*/
@@ -107,5 +117,4 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    gap: 20px;
 }
