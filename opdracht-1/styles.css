@@ -74,10 +74,11 @@
  the login buttons take up more vertical space, so the image grows to fill it.
  */
 .navbar-four .logo {
+    flex-grow: 1;
     display: flex;
-    justify-content: flex-end;
     align-items: center;
-    background-color: green;
+    justify-content: flex-start;
+    gap: 20px;
 }
 
             /*----- Logo -----*/
@@ -92,12 +93,16 @@
 
       /*----- Menu flexbox -----*/
 .navbar-four ul.menu {
+    flex-grow: 8;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
 }
 
       /*----- Login flexbox -----*/
 .navbar-four ul.login {
+    flex-grow: 1;
     display: flex;
+    align-items: center;
     justify-content: flex-end;
 }
