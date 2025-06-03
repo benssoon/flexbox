@@ -118,3 +118,60 @@
     align-items: center;
     justify-content: flex-end;
 }
+
+
+
+
+/* Opdracht 1d */
+
+/*----- Bullets off -----*/
+.navbar-five ul {
+    list-style-type: none;
+}
+
+/*----- Navbar flexbox -----*/
+.navbar-five {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-five * {
+    gap: 20px;
+}
+
+      /*----- Logo flexbox -----*/
+/* The image takes up more space than previous iterations because
+ the login buttons take up more vertical space, so the image grows to fill it.
+ */
+.navbar-five .logo {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+            /*----- Logo -----*/
+.navbar-five .logo img {
+
+}
+
+            /*----- Text flexbox -----*/
+.navbar-five .logo p {
+
+}
+
+      /*----- Menu flexbox -----*/
+.navbar-five ul.menu {
+    flex-grow: 8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+      /*----- Login flexbox -----*/
+.navbar-five ul.login {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
