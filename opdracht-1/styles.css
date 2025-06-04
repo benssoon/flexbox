@@ -85,6 +85,7 @@
       /*----- Logo flexbox -----*/
 /* The image takes up more space than previous iterations because
  the login buttons take up more vertical space, so the image grows to fill it.
+ Align-items center fixed the problem.
  */
 .navbar-four .logo {
     flex-grow: 1;
@@ -147,7 +148,7 @@
     flex-grow: 1;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-pcontent: flex-start;
 }
 
             /*----- Logo -----*/
