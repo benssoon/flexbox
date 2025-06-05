@@ -154,7 +154,7 @@ main {
     width: 20px;
 }
 
-.product image {
+.product .image img {
     width: 100%;
 }
 
