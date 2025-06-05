@@ -114,10 +114,24 @@ main {
     padding: 40px;
 }
 
+/*----- Product cards -----*/
 .product {
     flex-basis: 260px;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
 }
 
+.product .price-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.product .users {
+    width: 20px;
+}
 
 
 
@@ -159,5 +173,14 @@ main {
 }
 .product {
     border: dashed 4px blue;
+}
+.price-bar {
+    border: solid 4px green;
+}
+.price {
+    border: dashed 2px cyan;
+}
+.users {
+    border: dashed 2px cyan;
 }
 */
