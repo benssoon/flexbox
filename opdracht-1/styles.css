@@ -1,0 +1,178 @@
+/* Opdracht 1a */
+
+.navbar-one ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+
+
+
+/* Opdracht 1b */
+
+.navbar-two * {
+    gap: 20px;
+}
+
+.navbar-two ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+
+
+
+/* Opdracht 1c */
+
+/*----- Navbar flexbox -----*/
+.navbar-three {
+    display: flex;
+}
+
+.navbar-three * {
+    gap: 20px;
+}
+
+      /*----- Logo flexbox -----*/
+.navbar-three .logo {
+    flex-grow: 2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+            /*----- Logo -----*/
+.navbar-three .logo img {
+
+}
+
+            /*----- Text flexbox -----*/
+.navbar-three .logo p {
+
+}
+
+      /*----- Menu flexbox -----*/
+.navbar-three ul {
+    flex-grow: 98;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+
+
+
+/* Opdracht 1d */
+
+/*----- Bullets off -----*/
+.navbar-four ul {
+    list-style-type: none;
+}
+
+/*----- Navbar flexbox -----*/
+.navbar-four {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-four * {
+    gap: 20px;
+}
+
+      /*----- Logo flexbox -----*/
+/* The image takes up more space than previous iterations because
+ the login buttons take up more vertical space, so the image grows to fill it.
+ Align-items center fixed the problem.
+ */
+.navbar-four .logo {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+            /*----- Logo -----*/
+.navbar-four .logo img {
+
+}
+
+            /*----- Text flexbox -----*/
+.navbar-four .logo p {
+
+}
+
+      /*----- Menu flexbox -----*/
+.navbar-four ul.menu {
+    flex-grow: 8;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+      /*----- Login flexbox -----*/
+.navbar-four ul.login {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+
+
+/* Opdracht 1d */
+
+/*----- Bullets off -----*/
+.navbar-five ul {
+    list-style-type: none;
+}
+
+/*----- Navbar flexbox -----*/
+.navbar-five {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-five * {
+    gap: 20px;
+}
+
+      /*----- Logo flexbox -----*/
+/* The image takes up more space than previous iterations because
+ the login buttons take up more vertical space, so the image grows to fill it.
+ */
+.navbar-five .logo {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-pcontent: flex-start;
+}
+
+            /*----- Logo -----*/
+.navbar-five .logo img {
+
+}
+
+            /*----- Text flexbox -----*/
+.navbar-five .logo p {
+
+}
+
+      /*----- Menu flexbox -----*/
+.navbar-five ul.menu {
+    flex-grow: 8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+      /*----- Login flexbox -----*/
+.navbar-five ul.login {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}

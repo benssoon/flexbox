@@ -1,0 +1,214 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    flex-grow: 1;
+    flex-basis: 250px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+
+.content {
+    flex-basis: 0;
+    flex-grow: 20;
+
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+
+/*---------------- Sidebar ----------------*/
+
+.sidebar * {
+    gap: 10px;
+}
+
+/* Bullets off */
+.sidebar ul {
+    list-style-type: none;
+}
+
+/*----- Logo flexbox -----*/
+.logo {
+    flex-grow: 4;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/*----- Menu flexbox -----*/
+.menu {
+    flex-grow: 50;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+/*----- Menu item -----*/
+.menu-item {
+    display: flex;
+    justify-content: flex-start;
+}
+
+/*----- Login flexbox -----*/
+.login {
+    flex-grow: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+/*----- Buttons -----*/
+.button-primary {
+    width: 100%;
+}
+.button-secondary {
+    width: 100%;
+}
+
+
+
+
+/*---------------- Header ----------------*/
+header {
+    background-image: url("../assets/placeholder-image.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+
+/*---------------- Main ----------------*/
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    padding: 40px;
+}
+
+/*----- Product cards -----*/
+.product {
+    flex-basis: 260px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.product .details {
+    flex-grow: 2;
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.product .name {
+
+    flex-grow: 0;
+}
+
+.product .description {
+
+    flex-grow: 5;
+}
+
+.product .price-bar {
+
+    flex-grow: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product .users {
+    width: 20px;
+}
+
+.product .image img {
+    width: 100%;
+}
+
+
+
+
+/*---------------- Footer ----------------*/
+footer {
+    background-color: #383838;
+    color: white;
+
+    text-align: center;
+    padding: 16px;
+}
+
+
+
+/* borders */
+
+/*
+header {
+    border: solid 4px cyan;
+}
+.logo {
+    border: dashed 2px green;
+}
+.menu {
+    border: dashed 2px blue;
+}
+.login {
+    border: dashed 2px red;
+}
+.sidebar {
+border: solid 2px magenta;
+}
+.content {
+    border: dashed 4px black;
+}
+main {
+    border: dashed 4px yellow;
+}
+.product {
+    border: dashed 4px blue;
+}
+.details {
+    border: dashed 4px red;
+}
+.price-bar, .name, .description {
+    border: solid 4px green;
+}
+.price {
+    border: dashed 2px cyan;
+}
+.users {
+    border: dashed 2px cyan;
+}
+*/
