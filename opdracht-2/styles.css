@@ -119,6 +119,7 @@ main {
     flex-basis: 260px;
 
     display: flex;
+    flex-direction: column;
 }
 
 .product .details {
@@ -153,8 +154,8 @@ main {
     width: 20px;
 }
 
-.product button {
-
+.product image {
+    width: 100%;
 }
 
 
