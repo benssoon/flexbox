@@ -120,7 +120,12 @@ main {
 
     display: flex;
     flex-direction: column;
-    row-gap: 60px;
+}
+
+.product .details{
+    display: flex;
+    flex-direction: column;
+
 }
 
 .product .price-bar {
@@ -131,6 +136,10 @@ main {
 
 .product .users {
     width: 20px;
+}
+
+.product .image img {
+    width: 100%;
 }
 
 
