@@ -119,18 +119,42 @@ main {
     flex-basis: 260px;
 
     display: flex;
+}
+
+.product .details {
+    flex-grow: 2;
+
+    display: flex;
     flex-direction: column;
-    row-gap: 60px;
+    gap: 24px;
+}
+
+.product .name {
+
+    flex-grow: 0;
+}
+
+.product .description {
+
+    flex-grow: 5;
 }
 
 .product .price-bar {
+
+    flex-grow: 0;
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 .product .users {
     width: 20px;
+}
+
+.product button {
+
 }
 
 
@@ -174,7 +198,10 @@ main {
 .product {
     border: dashed 4px blue;
 }
-.price-bar {
+.details {
+    border: dashed 4px red;
+}
+.price-bar, .name, .description {
     border: solid 4px green;
 }
 .price {
